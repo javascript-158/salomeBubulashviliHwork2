@@ -22,3 +22,29 @@ console.log("4" + o[0] + " choice is " + color[3] + ".");
 console.log("5" + o[0] + " choice is " + color[4] + ".");
 console.log("6" + o[0] + " choice is " + color[5] + ".");
 console.log("7" + o[0] + " choice is " + color[6] + ".");
+
+// სტუდენტი
+
+let student = {
+    firstName: "Mate",
+    lastName: "Gotua",
+    age: 25,
+    address: {
+        street: "61 Marjanishvili st",
+        city: "Tbilisi"
+
+    },
+    siblings: ["Nika", "Liza"]
+    
+};
+
+console.log(student);
+
+student["weight"] = 75;
+student["eyeColor"] = "green";
+// console.log(student);
+
+delete student.siblings;
+// console.log(student);
+
+student.address = "1 Rustaveli st"; 
